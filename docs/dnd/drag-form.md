@@ -4,7 +4,7 @@
 
 ```tsx | react
 import { DragForm } from '@yl-d/pro-components';
-import items from '@/pro-components/schema/drag-form/schema.ts';
+import items from '@/schema/drag-form/schema.ts';
 
 export default () => {
   const [schema, setSchema] = React.useState(items);
@@ -32,7 +32,7 @@ export default () => {
 
 ```tsx | react
 import { DragForm } from '@yl-d/pro-components';
-import items from '@/pro-components/schema/drag-form/schema1.ts';
+import items from '@/schema/drag-form/schema1.ts';
 
 export default () => {
   const [schema, setSchema] = React.useState(items);
@@ -60,7 +60,7 @@ export default () => {
 
 ```tsx | react
 import { DragForm } from '@yl-d/pro-components';
-import items from '@/pro-components/schema/drag-form/schema2.ts';
+import items from '@/schema/drag-form/schema2.ts';
 
 export default () => {
   const [schema, setSchema] = React.useState(items);
@@ -175,5 +175,5 @@ export default () => {
 ## API
 
 ```API
-/packages/pro-components/src/drag-form/type.tsx
+/src/drag-form/type.tsx
 ```

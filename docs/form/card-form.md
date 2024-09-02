@@ -3,7 +3,7 @@
 ```tsx | react
 import { CardForm, Form } from '@yl-d/pro-components';
 import { Message } from '@arco-design/web-react';
-import schema from '@/pro-components/schema/form-submit/schema.ts';
+import schema from '@/schema/form-submit/schema.ts';
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms, true));
 export default () => {
@@ -38,7 +38,7 @@ export default () => {
 ```tsx | react
 import { CardForm } from '@yl-d/pro-components';
 import { Message, Button, Space } from '@arco-design/web-react';
-import schema from '@/pro-components/schema/form-submit/schema.ts';
+import schema from '@/schema/form-submit/schema.ts';
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms, true));
 export default () => {
@@ -84,7 +84,7 @@ export default () => {
 ```tsx | react
 import { CardForm, Form } from '@yl-d/pro-components';
 import { Message, Switch } from '@arco-design/web-react';
-import schema from '@/pro-components/schema/form-submit/schema.ts';
+import schema from '@/schema/form-submit/schema.ts';
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms, true));
 export default () => {
@@ -202,5 +202,5 @@ export default () => {
 ## API
 
 ```API
-/packages/pro-components/src/form-submit/card-form/type.tsx
+/src/form-submit/card-form/type.tsx
 ```

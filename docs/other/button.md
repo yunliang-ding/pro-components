@@ -111,7 +111,7 @@ export default () => {
 ```tsx | react
 import { Message, Space } from '@arco-design/web-react';
 import { Button, Form } from '@yl-d/pro-components';
-import schema from '@/pro-components/schema/form-submit/schema.ts';
+import schema from '@/schema/form-submit/schema.ts';
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms, true));
 
@@ -240,5 +240,5 @@ export default () => {
 ## API
 
 ```API
-/packages/pro-components/src/button/type.tsx
+/src/button/type.tsx
 ```

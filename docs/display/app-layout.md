@@ -3,7 +3,7 @@
 ```tsx | react | var(--color-fill-2)
 import { AppLayout, Button } from '@yl-d/pro-components';
 import { Radio, Space, Menu } from '@arco-design/web-react';
-import menus from '@/pro-components/schema/app-layout/schema.tsx';
+import menus from '@/schema/app-layout/schema.tsx';
 
 export default () => {
   const [pathname, setPathName] = React.useState('/workbench/my');
@@ -115,11 +115,11 @@ menu={{
 ## API
 
 ```API
-/packages/pro-components/src/app-layout/type.tsx
+/src/app-layout/type.tsx
 ```
 
 ## RightProps
 
 ```API
-/packages/pro-components/src/app-layout/right.type.tsx
+/src/app-layout/right.type.tsx
 ```

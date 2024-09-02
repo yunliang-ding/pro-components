@@ -26,5 +26,5 @@ export default () => {
 ## API
 
 ```API
-/packages/pro-components/src/drag-list/type.tsx
+/src/drag-list/type.tsx
 ```

@@ -2,7 +2,7 @@
 
 ```tsx | react | var(--color-fill-2)
 import { Search } from '@yl-d/pro-components';
-import schema from '@/pro-components/schema/form-search/schema.ts';
+import schema from '@/schema/form-search/schema.ts';
 
 export default () => {
   return (
@@ -23,7 +23,7 @@ export default () => {
 
 ```tsx | react | var(--color-fill-2)
 import { Search } from '@yl-d/pro-components';
-import schema from '@/pro-components/schema/form-search/schema1.ts';
+import schema from '@/schema/form-search/schema1.ts';
 
 export default () => {
   return (
@@ -44,7 +44,7 @@ export default () => {
 
 ```tsx | react | var(--color-fill-2)
 import { Search } from '@yl-d/pro-components';
-import schema from '@/pro-components/schema/form-search/schema.ts';
+import schema from '@/schema/form-search/schema.ts';
 
 export default () => {
   return (
@@ -66,7 +66,7 @@ export default () => {
 
 ```tsx | react | var(--color-fill-2)
 import { Search } from '@yl-d/pro-components';
-import schema from '@/pro-components/schema/form-search/schema.ts';
+import schema from '@/schema/form-search/schema.ts';
 
 export default () => {
   return (
@@ -90,7 +90,7 @@ export default () => {
 ```tsx | react | var(--color-fill-2)
 import { Search, Form, Button } from '@yl-d/pro-components';
 import { Space } from '@arco-design/web-react';
-import schema from '@/pro-components/schema/form-search/schema.ts';
+import schema from '@/schema/form-search/schema.ts';
 
 export default () => {
   const [form] = Form.useForm();
@@ -127,7 +127,7 @@ export default () => {
 
 ```tsx | react | var(--color-fill-2)
 import { Search } from '@yl-d/pro-components';
-import schema from '@/pro-components/schema/form-search/schema.ts';
+import schema from '@/schema/form-search/schema.ts';
 
 export default () => {
   return (
@@ -146,7 +146,7 @@ export default () => {
 
 ```tsx | react | var(--color-fill-2)
 import { Search } from '@yl-d/pro-components';
-import schema from '@/pro-components/schema/form-search/schema2.ts';
+import schema from '@/schema/form-search/schema2.ts';
 
 export default () => {
   return (
@@ -164,7 +164,7 @@ export default () => {
 
 ```tsx | react | var(--color-fill-2)
 import { Search } from '@yl-d/pro-components';
-import schema from '@/pro-components/schema/form-search/schema3.ts';
+import schema from '@/schema/form-search/schema3.ts';
 
 export default () => {
   return (
@@ -183,7 +183,7 @@ export default () => {
 
 ```tsx | react | var(--color-fill-2)
 import { Search } from '@yl-d/pro-components';
-import schema from '@/pro-components/schema/form-search/schema3.ts';
+import schema from '@/schema/form-search/schema3.ts';
 
 export default () => {
   return (
@@ -203,7 +203,7 @@ export default () => {
 
 ```tsx | react | var(--color-fill-2)
 import { Search } from '@yl-d/pro-components';
-import schema from '@/pro-components/schema/form-search/schema3.ts';
+import schema from '@/schema/form-search/schema3.ts';
 
 export default () => {
   return (
@@ -226,7 +226,7 @@ export default () => {
 
 ```tsx | react | var(--color-fill-2)
 import { Search } from '@yl-d/pro-components';
-import schema from '@/pro-components/schema/form-search/schema3.ts';
+import schema from '@/schema/form-search/schema3.ts';
 
 export default () => {
   return (
@@ -245,7 +245,7 @@ export default () => {
 
 ```tsx | react | var(--color-fill-2)
 import { Search } from '@yl-d/pro-components';
-import schema from '@/pro-components/schema/form-search/schema4.ts';
+import schema from '@/schema/form-search/schema4.ts';
 
 export default () => {
   return (
@@ -262,5 +262,5 @@ export default () => {
 ## API
 
 ```API
-/packages/pro-components/src/search/type.tsx
+/src/search/type.tsx
 ```

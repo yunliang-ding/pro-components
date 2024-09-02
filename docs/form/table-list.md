@@ -6,7 +6,7 @@
 import { TableList } from '@yl-d/pro-components';
 import { useReactive } from '@yl-d/pro-components';
 import { Switch } from '@arco-design/web-react';
-import schema from '@/pro-components/schema/table-list/schema.ts';
+import schema from '@/schema/table-list/schema.ts';
 
 export default () => {
   const store = useReactive({
@@ -79,7 +79,7 @@ export default () => {
 
 ```tsx | react
 import { CardForm } from '@yl-d/pro-components';
-import schema from '@/pro-components/schema/table-list/schema.ts';
+import schema from '@/schema/table-list/schema.ts';
 
 export default () => {
   const onSubmit = async (values) => {
@@ -123,5 +123,5 @@ export default () => {
 ## API
 
 ```API
-/packages/pro-components/src/table-list/type.tsx
+/src/table-list/type.tsx
 ```

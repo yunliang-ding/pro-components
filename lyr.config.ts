@@ -44,94 +44,99 @@ export default defineConfig({
     'https://lyr-cli-oss.oss-cn-beijing.aliyuncs.com/cdn/@yl-d/shared.min.js',
   ],
   serverPath: '/apis',
+  docsRequire: {
+    ArcoDesign: '@arco-design/web-react',
+    ArcoIcon: '@arco-design/web-react/icon',
+    axios: 'axios',
+  },
   menus: [
     {
       label: '介绍',
-      path: '/pro-components',
+      path: '/',
       group: true,
     },
     {
       label: '表单相关',
-      path: '/pro-components/form',
+      path: '/form',
       group: true,
       children: [
         {
           label: 'Form 基本用法',
-          path: '/pro-components/form/form-base',
+          path: '/form/form-base',
         },
         {
           label: 'Form 高级用法',
-          path: '/pro-components/form/form-advance',
+          path: '/form/form-advance',
         },
         {
           label: 'CardForm 卡片',
-          path: '/pro-components/form/card-form',
+          path: '/form/card-form',
         },
         {
           label: 'CreateModal 弹出层',
-          path: '/pro-components/form/create-modal',
+          path: '/form/create-modal',
         },
         {
           label: 'CreateDrawer 抽屉',
-          path: '/pro-components/form/create-drawer',
+          path: '/form/create-drawer',
         },
         {
           label: 'StepForm 分布操作',
-          path: '/pro-components/form/step-form',
+          path: '/form/step-form',
         },
         {
           label: 'AnchorCardForm 锚点',
-          path: '/pro-components/form/anchor-card-form',
+          path: '/form/anchor-card-form',
         },
         {
           label: 'Search 查询',
-          path: '/pro-components/form/search',
+          path: '/form/search',
         },
         {
           label: 'TableList 编辑表格',
-          path: '/pro-components/form/table-list',
+          path: '/form/table-list',
         },
         {
           label: 'OssFileUpload 上传',
-          path: '/pro-components/form/oss-file-upload',
+          path: '/form/oss-file-upload',
         },
       ],
     },
     {
       label: '数据展示',
-      path: '/pro-components/display',
+      path: '/display',
       group: true,
       children: [
         {
           label: 'Table 数据表格',
-          path: '/pro-components/display/table',
+          path: '/display/table',
         },
         {
           label: 'AnchorCard 锚点卡片',
-          path: '/pro-components/display/anchor-card',
+          path: '/display/anchor-card',
         },
         {
           label: 'AppLayout 应用布局',
-          path: '/pro-components/display/app-layout',
+          path: '/display/app-layout',
         },
       ],
     },
     {
       label: '拖拽相关',
-      path: '/pro-components/dnd',
+      path: '/dnd',
       group: true,
       children: [
         {
           label: 'DragWrapper 拖拽',
-          path: '/pro-components/dnd/drag-wrapper',
+          path: '/dnd/drag-wrapper',
         },
         {
           label: 'DragList 拖拽序列',
-          path: '/pro-components/dnd/drag-list',
+          path: '/dnd/drag-list',
         },
         {
           label: 'DragForm 拖拽表单',
-          path: '/pro-components/dnd/drag-form',
+          path: '/dnd/drag-form',
         },
       ],
     },
@@ -142,17 +147,17 @@ export default defineConfig({
       children: [
         {
           label: 'Button 扩展',
-          path: '/pro-components/other/button',
+          path: '/other/button',
         },
         {
           label: 'Suspend 悬浮容器',
-          path: '/pro-components/other/suspend',
+          path: '/other/suspend',
         },
       ],
     },
     {
       label: '更新日志',
-      path: '/pro-components/logs',
+      path: '/logs',
       group: true,
     },
   ],

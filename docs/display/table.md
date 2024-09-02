@@ -2,7 +2,7 @@
 
 ```tsx | react
 import { Table } from '@yl-d/pro-components';
-import tableSchema from '@/pro-components/schema/table/schema.ts';
+import tableSchema from '@/schema/table/schema.ts';
 
 export default () => {
   return <Table {...tableSchema} />;
@@ -13,7 +13,7 @@ export default () => {
 
 ```tsx | react
 import { Table } from '@yl-d/pro-components';
-import tableSchema from '@/pro-components/schema/table/schema1.ts';
+import tableSchema from '@/schema/table/schema1.ts';
 
 export default () => {
   return <Table {...tableSchema} />;
@@ -103,7 +103,7 @@ export default () => {
 
 ```tsx | react
 import { Table } from '@yl-d/pro-components';
-import tableSchema from '@/pro-components/schema/table/schema.ts';
+import tableSchema from '@/schema/table/schema.ts';
 
 export default () => {
   return <Table {...tableSchema} resize borderCell />;
@@ -114,7 +114,7 @@ export default () => {
 
 ```tsx | react
 import { Table } from '@yl-d/pro-components';
-import tableSchema from '@/pro-components/schema/table/schema.ts';
+import tableSchema from '@/schema/table/schema.ts';
 
 export default () => {
   return <Table autoNo {...tableSchema} />;
@@ -125,7 +125,7 @@ export default () => {
 
 ```tsx | react
 import { Table } from '@yl-d/pro-components';
-import tableSchema from '@/pro-components/schema/table/schema.ts';
+import tableSchema from '@/schema/table/schema.ts';
 
 export default () => {
   return (
@@ -145,7 +145,7 @@ export default () => {
 ```tsx | react
 import { Table, Button } from '@yl-d/pro-components';
 import { Space } from '@arco-design/web-react';
-import tableSchema from '@/pro-components/schema/table/schema.ts';
+import tableSchema from '@/schema/table/schema.ts';
 
 export default () => {
   return (
@@ -206,7 +206,7 @@ export default () => {
 
 ```tsx | react
 import { Table } from '@yl-d/pro-components';
-import tableSchema from '@/pro-components/schema/table/schema.ts';
+import tableSchema from '@/schema/table/schema.ts';
 
 export default () => {
   return <Table {...tableSchema} filterIds={['sex', 'city', 'sign']} />;
@@ -218,7 +218,7 @@ export default () => {
 ```tsx | react
 import { Table } from '@yl-d/pro-components';
 import { Input } from '@arco-design/web-react';
-import tableSchema from '@/pro-components/schema/table/schema.ts';
+import tableSchema from '@/schema/table/schema.ts';
 
 export default () => {
   return (
@@ -252,7 +252,7 @@ export default () => {
 
 ```tsx | react
 import { Table } from '@yl-d/pro-components';
-import tableSchema from '@/pro-components/schema/table/schema.ts';
+import tableSchema from '@/schema/table/schema.ts';
 
 export default () => {
   return (
@@ -271,8 +271,8 @@ export default () => {
 
 ```tsx | react | var(--color-fill-2)
 import { Table } from '@yl-d/pro-components';
-import tableSchema from '@/pro-components/schema/table/schema.ts';
-import searchSchema from '@/pro-components/schema/table/search.schema.ts';
+import tableSchema from '@/schema/table/schema.ts';
+import searchSchema from '@/schema/table/search.schema.ts';
 
 export default () => {
   return (
@@ -293,8 +293,8 @@ export default () => {
 
 ```tsx | react | var(--color-fill-2)
 import { Table } from '@yl-d/pro-components';
-import tableSchema from '@/pro-components/schema/table/schema.ts';
-import searchSchema from '@/pro-components/schema/table/search.schema.ts';
+import tableSchema from '@/schema/table/schema.ts';
+import searchSchema from '@/schema/table/search.schema.ts';
 
 export default () => {
   return (
@@ -314,8 +314,8 @@ export default () => {
 
 ```tsx | react | var(--color-fill-2)
 import { Table } from '@yl-d/pro-components';
-import tableSchema from '@/pro-components/schema/table/schema.ts';
-import searchSchema from '@/pro-components/schema/table/search.schema.ts';
+import tableSchema from '@/schema/table/schema.ts';
+import searchSchema from '@/schema/table/search.schema.ts';
 
 export default () => {
   return (
@@ -335,7 +335,7 @@ export default () => {
 ```tsx | react
 import { Table } from '@yl-d/pro-components';
 import { Spin } from '@arco-design/web-react';
-import tableSchema from '@/pro-components/schema/table/schema4.ts';
+import tableSchema from '@/schema/table/schema4.ts';
 
 const mockData = async () => {
   await new Promise((res) => setTimeout(res, 1000));
@@ -385,17 +385,17 @@ export default () => {
 ## API
 
 ```API
-/packages/pro-components/src/table/type.tsx
+/src/table/type.tsx
 ```
 
 ## TableColumnType
 
 ```API
-/packages/pro-components/src/table/column.type.tsx
+/src/table/column.type.tsx
 ```
 
 ## ToolsType
 
 ```API
-/packages/pro-components/src/table/tools.type.tsx
+/src/table/tools.type.tsx
 ```

@@ -2,7 +2,7 @@
 
 ```tsx | react
 import { Button, CreateDrawer } from '@yl-d/pro-components';
-import schema from '@/pro-components/schema/form-submit/schema.ts';
+import schema from '@/schema/form-submit/schema.ts';
 
 export default () => {
   return (
@@ -29,7 +29,7 @@ export default () => {
 ```tsx | react
 import { Button, CreateDrawer } from '@yl-d/pro-components';
 import { Message } from '@arco-design/web-react';
-import schema from '@/pro-components/schema/form-submit/schema.ts';
+import schema from '@/schema/form-submit/schema.ts';
 
 export default () => {
   return (
@@ -105,7 +105,7 @@ export default () => {
 ```tsx | react
 import { CreateDrawer, Button } from '@yl-d/pro-components';
 import { Space } from '@arco-design/web-react';
-import schema from '@/pro-components/schema/form-submit/schema.ts';
+import schema from '@/schema/form-submit/schema.ts';
 
 const drawer = CreateDrawer({
   title: '新增用户',
@@ -154,5 +154,5 @@ export default () => {
 ## API
 
 ```API
-/packages/pro-components/src/form-submit/drawer-form/type.tsx
+/src/form-submit/drawer-form/type.tsx
 ```

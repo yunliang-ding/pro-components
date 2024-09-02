@@ -2,7 +2,7 @@
 
 ```tsx | react
 import { CreateModal, Button } from '@yl-d/pro-components';
-import schema from '@/pro-components/schema/form-submit/schema.ts';
+import schema from '@/schema/form-submit/schema.ts';
 
 export default (props) => {
   return (
@@ -31,7 +31,7 @@ export default (props) => {
 ```tsx | react
 import { CreateModal, Button } from '@yl-d/pro-components';
 import { Message } from '@arco-design/web-react';
-import schema from '@/pro-components/schema/form-submit/schema.ts';
+import schema from '@/schema/form-submit/schema.ts';
 
 export default (props) => {
   return (
@@ -107,5 +107,5 @@ export default (props) => {
 ## API
 
 ```API
-/packages/pro-components/src/form-submit/modal-form/type.tsx
+/src/form-submit/modal-form/type.tsx
 ```
