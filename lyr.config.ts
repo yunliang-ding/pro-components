@@ -48,9 +48,10 @@ export default defineConfig({
   ],
   serverPath: '/apis',
   docsRequire: {
+    axios: 'axios',
     ArcoDesign: '@arco-design/web-react',
     ArcoIcon: '@arco-design/web-react/icon',
-    axios: 'axios',
+    yldHooks: '@yl-d/hooks',
   },
   menus: [
     {

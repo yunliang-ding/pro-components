@@ -4,7 +4,7 @@
 
 ```tsx | react
 import { TableList } from '@yl-d/pro-components';
-import { useReactive } from '@yl-d/pro-components';
+import { useReactive } from '@yl-d/hooks';
 import { Switch } from '@arco-design/web-react';
 import schema from '@/schema/table-list/schema.ts';
 
