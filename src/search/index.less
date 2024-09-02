@@ -1,0 +1,87 @@
+.core-form-search {
+  padding: 12px 20px;
+  padding-top: 20px;
+  margin-bottom: 16px;
+  background: var(--color-menu-light-bg);
+  width: 100%;
+  .arco-grid {
+    width: 100%;
+  }
+  .arco-grid-item {
+    display: grid;
+  }
+  .tools-btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .arco-btn {
+      margin-left: 8px;
+      display: flex;
+      align-items: center;
+      .expand {
+        transform: rotate(180deg);
+        display: inline-block;
+      }
+    }
+    .arco-btn-link {
+      padding: 0;
+    }
+  }
+  .arco-col-12,
+  .arco-col-14,
+  .arco-col-16 {
+    flex: auto;
+    max-width: 100%;
+  }
+  .grid-item-expand {
+    display: none;
+  }
+}
+.core-form-search-expand {
+  .grid-item-expand {
+    display: grid;
+  }
+}
+/** 水平对齐垂直布局 */
+.core-form-search-horizontal {
+  .arco-form-item {
+    margin-bottom: 0;
+  }
+}
+/** 垂直布局 */
+.core-form-search-vertical,
+.core-form-search-vertical-expand {
+  .arco-form-item {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .grid-search-btn {
+    position: relative;
+    top: 26px;
+    margin-bottom: 20px;
+  }
+}
+.core-form-search-vertical-expand {
+  .grid-item-expand {
+    display: grid;
+  }
+}
+.core-form-search-hidden {
+  display: none;
+}
+
+.core-form-search-inline {
+  .arco-form-label-item {
+    width: 75px;
+    label {
+      display: inline-block;
+      span {
+        display: inline-block;
+      }
+    }
+  }
+  .arco-form-item-wrapper {
+    width: calc(100% - 75px);
+    margin-bottom: 0;
+  }
+}

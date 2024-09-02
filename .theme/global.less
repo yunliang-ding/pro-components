@@ -1,0 +1,115 @@
+body {
+  .loading {
+    animation: spin 0.5s infinite linear;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+.markdown-viewer {
+  background: var(--bg-color);
+  padding: 20px 80px;
+  &-navs {
+    width: 160px;
+    position: fixed;
+    right: 20px;
+    top: 98px;
+    height: 100%;
+    overflow: auto;
+    background: var(--bg-color);
+    padding: 40px 0;
+    .yld-menu-subMenu,
+    .yld-menu-subMenu-label {
+      height: 34px !important;
+    }
+  }
+  &-blockquote {
+    margin: 10px 0;
+    background: var(--bg-color-2) !important;
+    p {
+      color: var(--text-color) !important;
+    }
+  }
+  &-code {
+    margin: 0 !important;
+    &-wrap {
+      border-color: var(--border-color) !important;
+      &-body {
+        padding: 20px !important;
+      }
+      &-extra {
+        border-color: var(--border-color) !important;
+      }
+    }
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+.lyr-docs-wrap
+  > .yld-layout-horizontal-body
+  > .yld-layout-horizontal-body-right
+  > .yld-layout-horizontal-body-right-content {
+    padding: 0 !important;
+    background-color: var(--bg-color) !important;
+}
+.lyr-docs-wrap
+  > .yld-layout-inline-body
+  > .yld-layout-inline-body-right
+  > .yld-layout-inline-body-right-content {
+    padding: 0 !important;
+    background-color: var(--bg-color) !important;
+}
+.yld-layout-inline-body-right-title,
+.yld-layout-inline-body-right-footer {
+  display: none;
+}
+.yld-layout-inline-body-right-content {
+  height: 100% !important;
+}
+.lyr-docs-wrap > .yld-layout-expand-btn {
+  display: none;
+}
+.yld-icon-demo-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  &-icon {
+    width: 147px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid var(--border-color);
+    transition: 0.3s;
+    .yld-icon {
+      transition: 0.3s;
+      font-size: 32px;
+    }
+    &:hover {
+      transition: 0.3s;
+      background-color: var(--bg-color-2);
+      .yld-icon {
+        transition: 0.3s;
+        transform: scale(1.4);
+      }
+    }
+  }
+}
+body {
+  [class^='arco-'] {
+    font-size: 12px !important;
+    font-weight: 500;
+  }
+  [class^='yld-']{
+    font-weight: 500;
+  }
+}

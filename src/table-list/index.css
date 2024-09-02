@@ -1,0 +1,29 @@
+.core-form-table-list .arco-table-tbody .arco-table-cell {
+  padding: 8px 10px !important;
+}
+.core-form-table-list .arco-form-item {
+  margin-bottom: 0;
+}
+.core-form-table-list .table-list-required::before {
+  content: '*';
+  color: red;
+  position: relative;
+  margin-right: 4px;
+}
+.core-form-table-list .table-list-field {
+  margin-bottom: 0px;
+}
+.core-form-table-list .core-form-table-list-footer {
+  width: 100%;
+  padding: 10px 0;
+}
+.core-form-table-list .core-form-table-list-footer button {
+  width: 100%;
+  color: rgb(var(--primary-6));
+}
+.core-form-table-list .core-form-table-list-footer button:disabled {
+  color: rgba(0, 0, 0, 0.251) !important;
+}
+.core-form-table-list .arco-form-item-explain-connected {
+  display: none;
+}

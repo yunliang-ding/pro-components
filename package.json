@@ -1,0 +1,51 @@
+{
+  "name": "@yl-d/pro-components",
+  "description": "中后台开发提效方案",
+  "author": "yunliang-ding",
+  "version": "1.0.0",
+  "homepage": "https://packages.yunliang.cloud/#/pro-components",
+  "scripts": {
+    "start": "lyr-docs dev",
+    "docs:build": "lyr-docs build",
+    "build": "rollup -c"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "keywords": [
+    "schema",
+    "form",
+    "react",
+    "arco.design"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yunliang-ding/pro-components"
+  },
+  "dependencies": {
+    "dayjs": "1.11.10",
+    "lodash.mergewith": "4.6.2",
+    "lodash.debounce": "4.0.8",
+    "lodash.clonedeepwith": "4.5.0",
+    "react-resizable": "3.0.4",
+    "screenfull": "6.0.2",
+    "use-sync-external-store": "1.2.2",
+    "@arco-design/color": "0.4.0"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.2",
+    "react-dom": ">=17.0.2",
+    "@arco-design/web-react": ">=2.56.0"
+  },
+  "devDependencies": {
+    "@yl-d/docs": "1.0.20"
+  },
+  "resolutions": {
+    "@types/react": "17.0.2"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}

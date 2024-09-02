@@ -1,0 +1,41 @@
+.dragContainer {
+  position: relative;
+  border: 2px dashed var(--color-fill-3);
+  padding: 10px;
+}
+.arco-form-inline .dragContainer{
+  padding-top: 24px;
+}
+.dragContainer:not(:has(:hover)):hover {
+  border-color: rgb(var(--primary-6), .5);
+}
+
+.dragContainerSelected {
+  border-color: rgb(var(--primary-6)) !important;
+}
+
+.dragContainerDargKey {
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  font-size: 12px;
+}
+
+.dragContainerSelected .dragContainerDargKey{
+  color: rgb(var(--primary-6));
+}
+
+.dragContainerTools {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(var(--primary-6));
+  color: #fff;
+  cursor: pointer;
+  border-top-left-radius: 8px;
+}

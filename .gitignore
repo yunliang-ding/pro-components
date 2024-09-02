@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+# production
+dist
+runtime
+logs
+www
+.DS_Store
+src/.lyr
+src/.theme

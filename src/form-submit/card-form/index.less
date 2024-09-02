@@ -1,0 +1,38 @@
+.card-form-start,
+.card-form-center,
+.card-form-end {
+  .arco-card-header {
+    background-color: var(--color-menu-light-bg);
+  }
+  .arco-card-body {
+    margin-bottom: 44px;
+    background-color: var(--color-menu-light-bg);
+  }
+  .arco-card-actions {
+    margin-top: 0;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    left: 0;
+    height: 44px;
+    background: var(--color-bg-2);
+    border-top: 1px solid var(--color-fill-3);
+    padding: 0 15px;
+    display: flex;
+    justify-content: flex-end;
+    li {
+      width: auto !important;
+    }
+  }
+}
+.card-form-start {
+  .arco-card-actions {
+    justify-content: flex-start;
+  }
+}
+.card-form-center {
+  .arco-card-actions {
+    justify-content: center;
+  }
+}
