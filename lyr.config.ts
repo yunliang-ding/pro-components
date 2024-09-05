@@ -53,6 +53,15 @@ export default defineConfig({
     ArcoIcon: '@arco-design/web-react/icon',
     yldHooks: '@yl-d/hooks',
   },
+  webpackConfig(){
+    return {
+      externals: {
+        "@arco-design/web-react": "arco",
+        "@arco-design/web-react/icon": "arcoicon",
+        '@yl-d/pro-components': "window.lyr"
+      }
+    }
+  },
   menus: [
     {
       label: '介绍',
