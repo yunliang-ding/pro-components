@@ -2,7 +2,7 @@ import { defineConfig } from 'lyr';
 
 export default defineConfig({
   title: 'pro-components',
-  favicon: 'https://lyr-cli-oss.oss-cn-beijing.aliyuncs.com/assets/favicon.ico',
+  favicon: 'https://lyr-cli-oss.oss-cn-beijing.aliyuncs.com/assets/user-logo.png',
   link: [
     'https://lyr-cli-oss.oss-cn-beijing.aliyuncs.com/cdn/monaco-file-icon.css',
     'https://lyr-cli-oss.oss-cn-beijing.aliyuncs.com/cdn/arco.min.css',

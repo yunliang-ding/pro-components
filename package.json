@@ -28,8 +28,6 @@
     "lodash.debounce": "4.0.8",
     "lodash.clonedeepwith": "4.5.0",
     "react-resizable": "3.0.4",
-    "screenfull": "6.0.2",
-    "use-sync-external-store": "1.2.2",
     "@arco-design/color": "0.4.0"
   },
   "peerDependencies": {
@@ -38,9 +36,8 @@
     "@arco-design/web-react": ">=2.64.0"
   },
   "devDependencies": {
-    "@yl-d/pro-components": "1.0.0",
     "@arco-design/web-react": "2.64.0",
-    "@yl-d/docs": "1.0.21"
+    "@yl-d/docs": "1.0.25"
   },
   "resolutions": {
     "@types/react": "17.0.2"
